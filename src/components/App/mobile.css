@@ -1,0 +1,35 @@
+@media (max-width: 900px) {
+  .board {
+    flex-direction: column;
+  }
+  .center {
+    width: 100%;
+    flex-direction: row;
+    padding: 20px 0px;
+  }
+  .column {
+    flex-direction: row;
+  }
+  .column * {
+    transform: rotate(-90deg);
+  }
+  button {
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+  }
+  h2 {
+    display: none;
+  }
+  .newG {
+    height: 35px;
+    width: 90px;
+  }
+  input {
+    width: 70px;
+    font-size: 37px;
+  }
+  .top {
+    transform: rotate(180deg);
+  }
+}

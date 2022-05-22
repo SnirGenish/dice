@@ -1,0 +1,13 @@
+img {
+  height: 100px;
+  width: 100px;
+  border: 1px solid blanchedalmond;
+  border-radius: 10px;
+  margin: 3px;
+}
+@media (max-width: 900px) {
+  img {
+    height: 30px;
+    width: 30px;
+  }
+}
